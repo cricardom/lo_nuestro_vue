@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -34,6 +35,12 @@ const routes = [
     path: '/nosotros',
     name: 'Nosotros',
     component: () => import(/* webpackChunkName: "about" */ '../views/Nosotros.vue')
+  }
+  ,
+  {
+    path: '/pedidos',
+    name: 'Pedidos',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Pedidos.vue')
   }
 ]
 
