@@ -25,6 +25,7 @@
                             <li><a href="./Reservaciones">Reservaciones</a></li>
                             <li><a href="./Nosotros">Nosotros</a></li>
                             <li><a href="./Pedidos">Pedidos</a></li>
+                            <li><a href="./Administrador">Administrador</a></li>
                         </ul>
                     </div> 
                 </div>
