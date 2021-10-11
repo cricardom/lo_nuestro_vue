@@ -3,7 +3,7 @@
 
        
     <div class="container">
-      <center><h1 style="color:red; text-align:center;font-weight: bold;">Disfrutas Nuestras Bebidas</h1></center>
+      <center><h1 style="color:red; text-align:center;font-weight: bold;">Ahora Disfrutas Nuestras Bebidas </h1></center>
          <main class="container">  
             <!-- inicio contenido principal -->
 
