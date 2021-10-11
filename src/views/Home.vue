@@ -3,13 +3,13 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import Noticias from './Noticias.vue'
+  import Noticias from './Noticias'
 
-export default {
-  name: 'Home',
-  components: {
-    Noticias,
+  export default {
+    name: 'Home',
+
+    components: {
+      Noticias,
+    },
   }
-}
 </script>
