@@ -79,11 +79,15 @@
 
                     <div class="col-lg">
                         <div class="row">
-                           <th>  <img class="team-info__imagen" src="../assets/imagenes/Cesar_Pruyecto_rest.jpg" alt="" width="200" height="200"> </th>
+                           <th>  <img class="team-info__imagen" src="../assets/imagenes/Cesar.jpg" alt="" width="220" height="200"> </th>
                         </div>
                         <div class="row">
-                            <h2>Cesar Ricardo Moreno Bedoya</h2>
-                            Persona interesada, en aprender programacion, su mayor deseo es que este proyecto salga lo mejor posible y que junto con su grupo de compañeros nos graduemos de este curso de programacion, GOOD LUCK!!!!!
+                            <h2 class="font-weight-thin">Cesar Ricardo Moreno Bedoya</h2>
+                           Intersado en desarrollarse en programacion web, absorbiendo el gran conocimiento de sus maestros,
+                            su mayor deseo es que este proyecto sea exitoso y que junto con su grupo de compañeros llevemos a buen termino
+                            este proyecto.
+
+                             GOOD LUCK!!!!!
                         </div>
 
                         <br>

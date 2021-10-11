@@ -1,4 +1,6 @@
 <template>
+
+
 <body>
 
        
@@ -7,7 +9,6 @@
          <main class="container">  
             <!-- inicio contenido principal -->
 
-            <!-- inicio sección de noticias -->
                <section id="Bebidas" class="Bebidas-section"> 
             <div class="row">
                 <div class="col-6">
@@ -22,10 +23,12 @@
                             <p class="Bebidas-info__text">
                                 Refrescante y deliciosa, completamente natural 
                             </p>
+                        <form id= "input formLimonada" action="" class="form-inline mb-3">
                             <label for="">Limonadas</label>
-                            <input type="Seleccione" size="2">
-                            <button type="button" class="btn btn-success btn-xs" onclick="acumulador()">Agrega al pedido</button>
-                    </article>
+                            <input id= "input itemLimonada" type="number" size="2">
+                            <button type="submit" class="btn btn-success btn-xs" onclick="acumulador()">Agrega al pedido</button>
+                        </form>
+                        </article>
                 </div>
                 <div class="col-6">
                     <article class="Bebidas-info2">
@@ -39,10 +42,11 @@
                             <p class="Bebidas-info__text">
                                 Delicioso extracto de Mandarina
                             </p>
-                            <label for="">Jugo de Mandarina</label>
-                            <input type="Seleccione" size="2">
-                            <button type="button" class="btn btn-success btn-xs" onclick="acumulador()">Agrega al pedido</button>
-                    </article>
+                        <form id= "input formMandarina" action="" class="form-inline mb-3">
+                            <label for="" >Jugo de Mandarina</label>
+                            <input id="itemMandarina" type="number" size="2">
+                            <button type="submit" class="btn btn-success btn-xs" onclick="acumulador()">Agrega al pedido</button>
+                        </form>                    </article>
                 </div>
             </div>
             <div class="row">
@@ -58,9 +62,11 @@
                             <p class="Bebidas-info__text">
                                 El Mejor Sabor lo Encuentras en lo Nuestro
                             </p>
+                        <form id= "input formMora" action="" class="form-inline mb3">
                             <label for="">Jugo de Mora</label>
-                            <input type="Seleccione" size="2">
-                            <button type="button" class="btn btn-success btn-xs" onclick="acumulador()">Agrega al pedido</button>
+                            <input id="itemMora" type="number" size="2">
+                            <button type="submit" class="btn btn-success btn-xs" onclick="acumulador()">Agrega al pedido</button>
+                        </form>
                     </article>
                 </div>
                 <div class="col-6">
@@ -75,9 +81,11 @@
                         <p class="Bebidas-info__text">
                             Mezcla Perfecta Para Acompañar Tus Comidas 
                         </p>
+                    <form id="input formRefajo" action="" class="form-inline mb3">
                         <label for="">Refajo</label>
-                        <input type="Seleccione" size="2">
-                        <button type="button" class="btn btn-success btn-xs" onclick="acumulador()">Agrega al pedido</button>
+                        <input id="itemRefajo" type="number" size="2">
+                        <button type="submit" class="btn btn-success btn-xs" onclick="acumulador()">Agrega al pedido</button>
+                    </form>
                     </article>
                 </div>
             </div>
@@ -94,14 +102,15 @@
                         <p class="Bebidas-info__text">
                             Elige Tu Favorita entre las cervesas nacionales
                         </p>
+                    <form id="input formCeveza" action="" class="form-inline mb3">
                         <label for="">Cerveza</label>
-                        <input type="Seleccione" size="2">
-                        <button type="button" class="btn btn-success btn-xs" onclick="acumulador()">Agrega al pedido</button>
+                        <input id="itemCerveza" type="number" size="2">
+                        <button type="submit" class="btn btn-success btn-xs" onclick="acumulador()">Agrega al pedido</button>
+                    </form>
                         <br><br>
     
-                <label for="quantity">Marca de Cerveza</label>
-                
-                <input type="Seleccione">
+                <label for="">Marca de Cerveza</label>                
+                <input id="marcaCervaza" type="Text">
                 <button type="button" class="btn btn-success btn-xs" onclick="acumulador()">Definir</button>
                     </article>
                 </div>
@@ -117,21 +126,26 @@
                         <p class="Bebidas-info__text">
                             El Mejor Sabor Burbujeante 
                         </p>
+                    <form id="input formGaseosa" action="" class="form-inline mb3" >
                         <label for="">Gaseosa</label>
-                        <input type="Seleccione" size="2">
-                        <button type="button" class="btn btn-success btn-xs" onclick="acumulador()">Agrega al pedido</button>
+                        <input id="itemGaseosa" type="number" size="2">
+                        <button type="submit" class="btn btn-success btn-xs" onclick="acumulador()">Agrega al pedido</button>
+                    </form>
                         <br><br>
     
-                <label for="quantity">Sabor</label>
-                
-                <input type="Seleccione">
+                <label for="">Sabor</label>                
+                <input v-model.trim = "msg">
                 <button type="button" class="btn btn-success btn-xs" onclick="acumulador()">Definir</button>
                     </article>
                     </div>
-                </div>   
+                </div>
+             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+            <script>src= "Pedidos.js" </script>
+
+
             </section>
-            <!-- fin sección de noticias -->
-            <!-- fin contenido principal -->
+                   <!-- fin contenido principal -->
             <br>
          
         </main>
